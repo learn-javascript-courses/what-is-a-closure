@@ -1,0 +1,20 @@
+{
+  "name": "closures",
+  "version": "1.0.0",
+  "description": "Closures explained",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r @std/esm source/test.js",
+    "watch": "watch 'clear && npm run -s test' source"
+  },
+  "author": "Eric Elliott",
+  "license": "MIT",
+  "devDependencies": {
+    "riteway": "2.0.3",
+    "watch": "1.0.2"
+  },
+  "@std/esm": "cjs",
+  "dependencies": {
+    "@std/esm": "0.19.7"
+  }
+}
