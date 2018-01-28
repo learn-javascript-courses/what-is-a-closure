@@ -10,6 +10,7 @@ This repo contains example code for ["Learn JavaScript with Eric Elliott"](https
 
 1. Clone the repo: `git clone git@github.com:learn-javascript-courses/what-is-a-closure.git`
 2. `cd what-is-a-closure`
-3. `npm run watch`
-4. Delete the contents of `source/index.js`
-5. Recreate the implementation. Make the tests pass.
+3. `npm install`
+4. `npm run watch`
+5. Delete the contents of `source/index.js`
+6. Recreate the implementation. Make the tests pass.
