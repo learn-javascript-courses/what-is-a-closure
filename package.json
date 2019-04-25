@@ -4,7 +4,7 @@
   "description": "Closures explained",
   "main": "index.js",
   "scripts": {
-    "test": "node -r @std/esm source/test.js",
+    "test": "node -r esm source/test.js",
     "watch": "watch 'clear && npm run -s test' source"
   },
   "author": "Eric Elliott",
@@ -15,6 +15,6 @@
   },
   "@std/esm": "cjs",
   "dependencies": {
-    "@std/esm": "0.19.7"
+    "esm": "~3.2.22"
   }
 }
