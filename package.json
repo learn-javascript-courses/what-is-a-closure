@@ -13,7 +13,6 @@
     "riteway": "2.0.3",
     "watch": "1.0.2"
   },
-  "@std/esm": "cjs",
   "dependencies": {
     "esm": "~3.2.22"
   }
